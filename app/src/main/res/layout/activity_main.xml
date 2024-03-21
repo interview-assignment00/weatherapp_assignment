@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient_background_main"
+    android:padding="@dimen/main_activity_padding">
+
+    <include
+        android:id="@+id/weather_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/weather_display"
+        android:layout_marginTop="@dimen/display_include_margin"
+        android:layout_marginBottom="@dimen/display_include_margin"/>
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        app:dividerColor="@color/display_divider"/>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_marginTop="@dimen/fragment_container_margin"
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

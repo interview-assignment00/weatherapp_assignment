@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Weatherapp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/gradient_start</item>
+        <item name="colorPrimaryVariant">@color/gradient_center</item>
+        <item name="colorOnPrimary">@color/gradient_end</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/gradient_start</item>
+        <item name="colorSecondaryVariant">@color/gradient_center</item>
+        <item name="colorOnSecondary">@color/gradient_end</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/gradient_start</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@drawable/splash_screen_background</item>
+    </style>
+</resources>

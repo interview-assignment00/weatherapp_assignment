@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="item_divider_margin">20dp</dimen>
+    <dimen name="item_temperature_text_margin">20dp</dimen>
+    <dimen name="item_icon_margin">20dp</dimen>
+    <dimen name="display_include_margin">20dp</dimen>
+    <dimen name="fragment_container_margin">20dp</dimen>
+    <dimen name="main_activity_padding">20dp</dimen>
+</resources>
